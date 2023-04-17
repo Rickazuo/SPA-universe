@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space</title>
+
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="./pages/exploration.css" />
+    <link rel="stylesheet" href="./pages/universe.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="./assets/icon.svg" alt="icon" />
+      <nav class="navigation">
+        <a id="nav-home" href="/" onclick="window.route()">Home</a>
+        <a id="nav-universe" href="/universe" onclick="window.route()"
+          >O Universo</a
+        >
+        <a id="nav-exploration" href="/exploration" onclick="window.route()"
+          >Exploração</a
+        >
+      </nav>
+    </div>
+
+    <div id="app"></div>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.universe-container {
+  width: 100dvw;
+}
+
+.universe {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+
+  padding-left: 6.375rem;
+  padding-left: 6.375rem;
+  gap: 1rem;
+}
+
+.title-universe {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+
+  align-self: auto;
+
+  color: var(--white);
+}
+
+.text-universe {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+
+  color: var(--white);
+}

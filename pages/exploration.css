@@ -1,0 +1,31 @@
+.exploration-container {
+  width: 100dvw;
+}
+
+.exploration {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+
+  padding-left: 6.375rem;
+  padding-left: 6.375rem;
+  gap: 1rem;
+}
+
+.title-exploration {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+
+  align-self: auto;
+
+  color: var(--white);
+}
+
+.text-exploration {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+
+  color: var(--white);
+}
