@@ -22,6 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
+- Javascript
 - Node.js
 - Lite-Server
 - Git e Github
