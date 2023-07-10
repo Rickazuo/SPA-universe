@@ -14,17 +14,20 @@
     <div class="header">
       <img src="./assets/icon.svg" alt="icon" />
       <nav class="navigation">
-        <a id="nav-home" href="/" onclick="window.route()">Home</a>
-        <a id="nav-universe" href="/universe" onclick="window.route()"
+        <a id="nav-home" href="/" onclick="window.route(event)">Home</a>
+        <a id="nav-universe" href="/universe" onclick="window.route(event)"
           >O Universo</a
         >
-        <a id="nav-exploration" href="/exploration" onclick="window.route()"
+        <a
+          id="nav-exploration"
+          href="/exploration"
+          onclick="window.route(event)"
           >Exploração</a
         >
       </nav>
     </div>
 
     <div id="app"></div>
-    <script src="./js/index.js" type="module"></script>
+    <script src="./js/index.js" type="module" async></script>
   </body>
 </html>

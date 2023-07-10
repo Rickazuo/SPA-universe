@@ -9,7 +9,7 @@ export class Router {
         event = event || window.event
         event.preventDefault()
 
-        window.history.pushState({}, "", event.target.href)
+        window.history.pushState({}, "", event.currentTarget.href)
 
         this.handle()
     }
@@ -23,6 +23,7 @@ export class Router {
             document.querySelector('#app').innerHTML = html
             this.updateBackground(pathname)
         })
+        
     }
 
     updateBackground(route) {

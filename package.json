@@ -1,7 +1,6 @@
 {
   "name": "space-universe",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "lite-server"
@@ -11,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rickazuo/SPA-universe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rickazuo/SPA-universe/issues"
+  },
+  "homepage": "https://github.com/Rickazuo/SPA-universe#readme",
+  "description": ""
 }
