@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto _SPA_ foi realizado como parte do curso de desenvolvimento de software da <a href="https://www.rocketseat.com.br/" alt="Link para o site da RocketSeat" target="_blank">RocketSeat</a>.
+O projeto _SPA_ foi realizado como parte do curso de desenvolvimento de software da <a href="https://www.rocketseat.com.br/" alt="Link para o site da RocketSeat" target="_blank">RocketSeat</a>. É necessário a instalação do Node.js e do Lite-server para funcionar, além da alteração do package.json em "scripts" "start": "lite-server".
 
 _<h2 align="center" ><a href="https://rickazuo.github.io/SPA-universe/" target="_blank">Visite o projeto online</a></h2>_
 
